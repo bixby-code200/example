@@ -1,0 +1,13 @@
+endpoints {
+  authorization {
+    none
+    // or add OAuth configuration
+  }
+
+  action-endpoints {
+    action-endpoint (PlusOperation) {
+      accepted-inputs (leftOperand, rightOperand)
+      local-endpoint (plusOperation.js)
+    }
+  }
+}

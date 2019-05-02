@@ -1,0 +1,11 @@
+action (LoLChampionRecommend) {
+  description (롤 챔피언을 포지션 별로 추천해줌)
+  collect {
+    input (position) {
+      type (Position)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (Result)
+}

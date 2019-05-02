@@ -1,0 +1,7 @@
+action (LoLChampionRecommend) {
+  description (롤 챔피언을 추천해줌)
+  collect {
+  }
+  type(Search)
+  output (Result)
+}

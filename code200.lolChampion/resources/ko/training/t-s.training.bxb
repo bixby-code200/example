@@ -1,0 +1,5 @@
+train (t-simh8e250mblu61vk3oxjp01w) {
+  utterance ([g:Result] 롤 챔피언 추천해줘)
+  plan (Y2BkkErOT0k1MjDQy8nPcc5IzC3IzM/TC0otLs0pYQABRhABAA==)
+  last-modified (1556762353578)
+}

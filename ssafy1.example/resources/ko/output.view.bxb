@@ -1,0 +1,15 @@
+result-view {
+  match: Results(this)
+  
+  message {
+    template ("결과 값을 확인하여 보세요.")
+  }
+  
+  render {
+    layout-macro (result_details) {
+      param (results_for_view) {
+        expression (this)
+      }
+    }
+  }
+}
